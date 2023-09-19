@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ляховецкий Станислав">
+        <meta name="description" content="Тестовая страница">
+        <meta name="keywords" content="тест,проверка,html">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>
+            Главная страница
+        </title>
+    </head>
+    <body>
+        <!-- Комментарий -->
+        <p title="Hint">Просто текст</p>
+        <a href="mailto:stas-alex@mail.ru">Написать на почту</a><br>
+        <br>
+        <a href="#" class="href">Стили</a>
+        <br>
+        <br>
+        <h1 id="header">Заголовок стили 1</h1>
+        <h1 class="style">Заголовок стили 11</h1>
+        <p id="example">Текст 1</p>
+        <h3 class="style">Заголовок стили 2</h3>
+        <p>Текст 2</p>
+        <table border="1" width="500px">
+            <thead>
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Name 1</td>
+                    <td>Surname 1</td>
+                </tr>
+                <tr>
+                    <td>Name 2</td>
+                    <td>Surname 2</td>
+                </tr>
+                <tr>
+                    <td>Name 3</td>
+                    <td>Surname 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr></tr>
+            </tfoot>
+        </table>
+        <br>
+        <form action="" method="post">
+            <label for="user_name">Введите имя</label>
+            <input type="text" placeholder="введите текст" value="ку-ку" maxlength="20" 
+             name="user_name" id="user_name">
+             <br>
+             <br>
+            <input type="color">
+            <input type="submit" value="Отправить"><br><br>
+            <input type="reset" value="Очистить"><br><br>
+            <select multiple>
+                <option>BMW</option>
+                <option selected>Audi</option>
+                <option>Mercedes</option>
+            </select>
+        </form>
+        <br>
+        <br>
+        <div id="testBlock">Blocks</div>
+
+        <div id="headBlock">Шапка</div>
+        <div id="article">Текст</div>
+        <div id="aside">Боковая</div>
+        <div id="footer">Низ</div>
+
+        <script src="javascript/main.js">
+        </script>
+    </body>
+</html>

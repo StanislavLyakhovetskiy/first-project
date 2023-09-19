@@ -1,0 +1,27 @@
+* {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #adc6a7;
+}
+#header {
+    color: #c36424;
+}
+h3 {
+    color: #242fc3;
+}
+h1.style {
+    color: #24c329;
+}
+p#example::first-letter {
+    color: #c3249b;
+}
+.href {
+    color: #5924c3;
+}
+.href:hover {
+    color: #24c339;
+}
