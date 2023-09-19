@@ -16,9 +16,6 @@ h3 {
 h1.style {
     color: #24c329;
 }
-p#example::first-letter {
-    color: #c3249b;
-}
 .href {
     color: #5924c3;
 }
